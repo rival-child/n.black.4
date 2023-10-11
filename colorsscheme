@@ -1,0 +1,61 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<h2 style="font-style: italic; color: #333">Color Scheme: Example Scheme</h2>
+
+<table>
+  <tr>
+    <th>Color Name</th>
+    <th>Hex Value</th>
+    <th>RGB Value</th>
+    <th>HSL Value</th>
+  </tr>
+  <tr>
+    <td style="background-color: #FF0000;">Red</td>
+    <td>#FF0000</td>
+    <td>rgb(255, 0, 0)</td>
+    <td>hsl(0, 100%, 50%)</td>
+  </tr>
+  <tr>
+    <td style="background-color: #00FF00;">Green</td>
+    <td>#00FF00</td>
+    <td>rgb(0, 255, 0)</td>
+    <td>hsl(120, 100%, 50%)</td>
+  </tr>
+  <tr>
+    <td style="background-color: #0000FF;">Blue</td>
+    <td>#0000FF</td>
+    <td>rgb(0, 0, 255)</td>
+    <td>hsl(240, 100%, 50%)</td>
+  </tr>
+  <tr>
+    <td style="background-color: #FFFF00;">Yellow</td>
+    <td>#FFFF00</td>
+    <td>rgb(255, 255, 0)</td>
+    <td>hsl(60, 100%, 50%)</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
